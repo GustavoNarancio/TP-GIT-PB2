@@ -32,8 +32,8 @@ public class Calculadora {
 			resultado = a * b;
 		} else {
 			resultado = a / b;
-		}
-
+		} 
+// agrego comentario
 		System.out.println("El resultado es: " + resultado.toString());
 
 	}
