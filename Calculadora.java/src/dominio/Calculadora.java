@@ -12,7 +12,7 @@ public class Calculadora {
         Integer b;
         Integer opcion = 0;
         Integer resultado;
-          
+        
       
         do {
             System.out.println("Ingrese su operación /n 1 Para sumar /n 2 Para restar /n 3 Para multiplicar /n 4 Para dividir");
@@ -24,11 +24,11 @@ public class Calculadora {
         System.out.println("Ingrese el segundo numero");
         b = teclado.nextInt();
 
-        if(opcion.equals(1)) {
+        if(opcion.equals(3)) {
             resultado = a + b;
         }else if(opcion.equals(2)) {
             resultado = a - b;
-        }else if(opcion.equals(3)) {
+        }else if(opcion.equals(1)) {
             resultado = a * b;
         }else {
             resultado = a / b;
